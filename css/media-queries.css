@@ -1,0 +1,34 @@
+﻿@Charset: "UTF-8";
+
+/*   1173  */
+@media only screen and (max-width:1173px) {
+#header { font-size: 60px; }
+.menu_2 { display: none; }
+.Benefits{
+	font-family: PTSans1, Arial;
+	font-size: 20px;
+	width: 200px;
+	height: auto;
+	}
+}
+/*   830  */
+@media only screen and (max-width:830px){
+ .Benefits{
+	font-family: PTSans1, Arial;
+	font-size: 20px;
+	width: 300px;
+	margin-bottom: 20px;
+	}
+#header { font-family: PTSans1, Arial; font-size: 90px; }
+}
+/*   740  */
+@media only screen and (max-width:740px){
+.span1, .clock, .massage, #img1 { display:none; }
+#header { min-height: 700px; }
+.menu { bottom: -30px;}
+.menu_3 { font-size: 18px; height: 100%; width: 80%; }
+}
+/*   480  */
+@media only screen and (max-width:480px){	
+#header{ padding-top: 50px; font-size: 40px; max-height: 300px; }
+}
