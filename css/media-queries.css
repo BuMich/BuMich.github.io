@@ -4,7 +4,7 @@
 @media only screen and (max-width:1173px) {
 #header { font-size: 60px; }
 .menu_2 { display: none; }
-.Benefits{
+.benefits{
 	font-family: PTSans1, Arial;
 	font-size: 20px;
 	width: 200px;
@@ -13,20 +13,20 @@
 }
 /*   830  */
 @media only screen and (max-width:830px){
- .Benefits{
+ .benefits{
 	font-family: PTSans1, Arial;
 	font-size: 20px;
 	width: 300px;
 	margin-bottom: 20px;
 	}
 #header { font-family: PTSans1, Arial; font-size: 90px; }
+#footer span{font-size: 1em;}
 }
 /*   740  */
 @media only screen and (max-width:740px){
-.span1, .clock, .massage, #img1 { display:none; }
+.header_text, .clock, .massage, #img1 { display:none; }
 #header { min-height: 700px; }
-.menu { bottom: -30px;}
-.menu_3 { font-size: 18px; height: 100%; width: 80%; }
+.main_unit_menu{ font-size: 18px; height: 100%; width: 80%; }
 }
 /*   480  */
 @media only screen and (max-width:480px){	
